@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery with Filter</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <section>
+      <ul>
+        <li
+          class="list all active"
+          onclick="filterSelection('all')"
+          data-filter="all"
+        >
+          All
+        </li>
+        <li
+          class="list event"
+          onclick="filterSelection('event')"
+          data-filter="event"
+        >
+          Event
+        </li>
+        <li
+          class="list model"
+          onclick="filterSelection('model')"
+          data-filter="model"
+        >
+          Model
+        </li>
+        <li
+          class="list street"
+          onclick="filterSelection('street')"
+          data-filter="street"
+        >
+          Street
+        </li>
+        <li
+          class="list travel"
+          onclick="filterSelection('travel')"
+          data-filter="travel"
+        >
+          Travel
+        </li>
+      </ul>
+      <div class="product">
+        <div class="itemBox event">
+          <img src="img/event/club1.jpg" alt="" />
+        </div>
+        <div class="itemBox model">
+          <img src="img/model/model1.jpg" alt="" />
+        </div>
+        <div class="itemBox street">
+          <img src="img/street/street1.jpg" alt="" />
+        </div>
+        <div class="itemBox travel">
+          <img src="img/travel/banff1.jpg" alt="" />
+        </div>
+
+        <div class="itemBox event">
+          <img src="img/event/club2.jpg" alt="" />
+        </div>
+        <div class="itemBox model">
+          <img src="img/model/model2.jpg" alt="" />
+        </div>
+        <div class="itemBox street">
+          <img src="img/street/street2.jpg" alt="" />
+        </div>
+        <div class="itemBox travel">
+          <img src="img/travel/banff2.jpg" alt="" />
+        </div>
+
+        <div class="itemBox event">
+          <img src="img/event/club4.jpg" alt="" />
+        </div>
+        <div class="itemBox model">
+          <img src="img/model/model4.jpg" alt="" />
+        </div>
+        <div class="itemBox street">
+          <img src="img/street/street4.jpg" alt="" />
+        </div>
+        <div class="itemBox travel">
+          <img src="img/travel/banff4.jpg" alt="" />
+        </div>
+
+        <div class="itemBox event">
+          <img src="img/event/club5.jpg" alt="" />
+        </div>
+        <div class="itemBox model">
+          <img src="img/model/model5.jpg" alt="" />
+        </div>
+        <div class="itemBox street">
+          <img src="img/street/street5.jpg" alt="" />
+        </div>
+        <div class="itemBox travel">
+          <img src="img/travel/banff5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
